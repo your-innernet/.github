@@ -18,7 +18,7 @@ include what you found, where (URL, endpoint, or tool), and how to reproduce it.
 - `innernet.live` — web app, dashboard, docs
 - `innernet.live/api/mcp` — the hosted MCP server and its OAuth 2.1 flow
 - `innernet.live/api/*` — platform APIs
-- the `innernet` CLI and local MCP server
+- the `innernet` CLI (`npx innernet`) — it wires your AI tools and bridges stdio to the hosted server; it holds one API key and no memory
 
 out of scope: denial of service and volumetric attacks, social engineering, and findings in third-party services we build on (report Supabase issues to Supabase, Vercel issues to Vercel).
 

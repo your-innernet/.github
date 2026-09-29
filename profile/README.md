@@ -47,6 +47,8 @@ per-client wiring lives in the [docs](https://innernet.live/docs/connect).
 
 the product is built in a private monorepo while the foundations settle — TypeScript end to end: a Next.js platform on Supabase, the `innernet` CLI on npm, and one hosted MCP server exposing the full memory surface (35 tools across projects, personal memory, artifacts, and tasks, each with a REST twin at `/api/v1`). what ships and why is public on the [company page](https://innernet.live/company).
 
+the plugin is open: **[innernet-mcp](https://github.com/your-innernet/innernet-mcp)** — the connector and its two skills, packaged for Claude, Codex, Cursor and Gemini CLI, and listed in the official MCP registry as `live.innernet/innernet`. MIT licensed.
+
 found something that looks wrong from the outside? security reports go to [SECURITY.md](https://github.com/your-innernet/.github/blob/main/SECURITY.md) — everything else to [yours@innernet.live](mailto:yours@innernet.live).
 
 <p align="center"><sub>© 2026 innernet · <a href="https://innernet.live">innernet.live</a></sub></p>
